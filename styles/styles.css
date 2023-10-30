@@ -1,0 +1,192 @@
+/*
+1 - Universal Styles
+2 - Nav Styles
+3 - Header Styles
+4 - About Us Styles
+5 - Meet the Teams Styles
+6 - Other Brands Styles
+7 - Footer Styles
+*/
+/*-------------------------------------------------------------------*/
+
+/*1 - Universal Styles*/
+.break {
+    width: 100%;
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    margin: 3rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*2 - Nav Styles*/
+nav {
+    padding: 2.5rem 3rem;
+}
+
+nav ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+} 
+
+nav ul li {
+    padding: 0 3rem;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: #FFC0CB;
+}
+
+/* 3 - Header Styles*/
+header {
+    background-image: url("../Assets/images/types-of-sex-toys-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 10rem;
+}
+
+header p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+}
+
+header a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 10rem;
+    margin-top: 10rem;
+    font-weight: 900;
+    color: black;
+}
+
+header a:hover {
+    color: green
+}
+
+/*4 - About Us Styles*/
+#about-us {
+    text-align: center;
+}
+#about-us h3 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+#about-us p {
+    font-size:2rem;
+    line-height: 1.5;
+    margin: 0 10rem 3rem 10rem;
+}
+
+#about-us strong {
+    font-size: 2.25rem;
+}
+
+ol {
+    margin: 0 10rem;
+}
+
+ol li {
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+/* 5 - Meet the Teams Styles*/
+.section-team {
+    display: flex;
+    min-height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .25rem solid black;
+    max-width: 25vw;
+    min-height: 75rem;
+    margin:3rem 0;
+    padding: 3rem 3.5rem;
+}
+
+.cards h3 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.cards h4 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cards p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.4;
+}
+
+.cards img {
+    border-radius: 50%;
+}
+
+/*6 - Other Brands Styles*/
+.container-brands {
+    font-size: 2rem;
+    margin: 0 10rem;
+}
+
+.container-brands strong {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.brand-list {
+    margin-bottom: 3rem;
+}
+
+.pricing {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.pricing a {
+    color: green;
+}
+
+.pricing a:hover {
+    color: #FFC0CB;
+}
+
+/*7 - Footer Styles*/
+
+footer {
+    font-size:1.5rem;
+    text-align: center;
+    margin: 10rem 0 2rem 0; 
+}
+footer p {
+    margin-bottom: 1rem;
+}
